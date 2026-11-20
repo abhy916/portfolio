@@ -53,3 +53,12 @@ dd{margin:.35rem 0 0}
 .footer{border-bottom:0;color:var(--muted);font-size:.9rem}
 @media(max-width:740px){.hero,.lab{grid-template-columns:1fr;gap:1.5rem}.hero{padding-top:3rem}.wrap{width:calc(100% - 2rem)}}
 @media(max-width:480px){.cards,.skills,.metrics{grid-template-columns:1fr}.metrics div+div{border-left:0;border-top:1px solid var(--line)}.metrics div{padding:.75rem 0}.top{flex-wrap:wrap}.footer{align-items:flex-start}}
+
+details{margin-top:1rem;border-top:1px solid var(--line);padding-top:.8rem}
+details summary{cursor:pointer;color:var(--accent)}
+details summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+details ul{padding-left:1.2rem;margin-bottom:0}
+details li+li{margin-top:.35rem}
+.lab-links a{font-size:.9rem}
+.contact{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.contact p{margin-bottom:0}

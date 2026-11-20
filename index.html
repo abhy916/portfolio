@@ -11,15 +11,15 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="wrap top">
 <a class="brand" href="#main"><span>AG</span> Abhilash George</a>
-<nav aria-label="Main navigation"><a href="#work">Work</a><a href="#lab">Lab</a><a href="#skills">Skills</a></nav>
+<nav aria-label="Main navigation"><a href="#work">Work</a><a href="#lab">Lab</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
 </header>
 <main id="main" class="wrap">
 <section class="hero" aria-labelledby="intro">
 <div>
 <p class="eyebrow"><span class="dot"></span> Open to remote DevOps roles · India</p>
-<h1 id="intro">Cloud infrastructure.<br><em>Built to run.</em></h1>
-<p class="intro">I’m Abhilash George, a Senior DevOps Engineer at TCS. I build and operate AWS and Azure infrastructure, automate deployments, and troubleshoot production Kubernetes.</p>
-<div class="actions"><a class="primary" href="#work">Explore my work</a><a class="secondary" href="#lab">View portfolio project</a></div>
+<h1 id="intro">Senior DevOps Engineer<br><em>AWS, Kubernetes &amp; Terraform</em></h1>
+<p class="intro">I’m Abhilash George. Over roughly seven years in DevOps at TCS, I’ve built and operated AWS and Azure infrastructure, automated deployments with Jenkins and Terraform, and troubleshot production Kubernetes on EKS and AKS.</p>
+<div class="actions"><a class="primary" href="https://www.linkedin.com/in/abhilash-george-b0976b90/">Connect on LinkedIn</a><a class="secondary" href="#lab">View portfolio project</a></div>
 </div>
 <figure class="blueprint" aria-labelledby="pipeline-title">
 <figcaption id="pipeline-title"><span>Cloud-native lab</span><span>CI/CD</span></figcaption>
@@ -42,12 +42,12 @@
 <div class="cards">
 <article><p class="tag">AWS · FINOPS</p><h3>Cut recurring AWS spend</h3><p>Rightsized around ten EC2 instances and cleaned up EBS storage. Used AWS billing to validate approximately $9,000 in recurring annual savings.</p></article>
 <article><p class="tag">JENKINS · CI/CD</p><h3>Accelerated Teamcenter releases</h3><p>Improved Jenkins deployment automation, reducing the Teamcenter deployment window from about two hours to thirty minutes.</p></article>
-<article><p class="tag">EKS · NETWORKING</p><h3>Restored application connectivity</h3><p>Troubleshot production EKS ingress and Network Load Balancer issues, including security group rules and backend protocol mismatches behind 502 responses.</p></article>
+<article><p class="tag">EKS · NETWORKING</p><h3>Restored application connectivity</h3><p>Investigated production EKS ingress and Network Load Balancer issues. In one case, requests returned HTTP 502 because the ingress backend protocol didn’t match what the application expected.</p><details><summary>Read the troubleshooting case</summary><ul><li><b>Symptom:</b> Requests through ingress returned HTTP 502.</li><li><b>Diagnosis:</b> Compared the ingress backend protocol with the application’s expected protocol.</li><li><b>Fix:</b> Aligned the backend protocol with the application to restore connectivity.</li></ul></details></article>
 <article><p class="tag">AWS MGN · EC2</p><h3>Migrated on-premises workloads</h3><p>Migrated more than ten servers to AWS and handled configuration, data migration, validation, and troubleshooting.</p></article>
 </div>
 </section>
 <section id="lab" class="section lab">
-<div><p class="eyebrow">Personal project</p><h2>Cloud-native DevOps lab</h2><p>A Spring Boot application that demonstrates container builds, infrastructure as code, GitOps deployment, and application monitoring.</p></div>
+<div><p class="eyebrow">Personal project</p><h2>Cloud-native DevOps lab</h2><p>A Spring Boot application that demonstrates container builds, infrastructure as code, GitOps deployment, and application monitoring.</p><div class="actions lab-links"><a class="primary" href="https://github.com/abhy916/cloud-native-devops-lab">View on GitHub</a><a class="secondary" href="https://github.com/abhy916/cloud-native-devops-lab/blob/master/jenkins/Jenkinsfile">Jenkinsfile</a><a class="secondary" href="https://github.com/abhy916/cloud-native-devops-lab/tree/master/helm/devops-app">Helm chart</a></div></div>
 <ol>
 <li><b>Provision.</b> Define VPC, subnets and load-balancing resources with Terraform.</li>
 <li><b>Build.</b> Package with Maven, build a Docker image with Jenkins, and push to Amazon ECR.</li>
@@ -63,6 +63,10 @@
 <div><dt>Operations &amp; automation</dt><dd>Prometheus · Grafana · Linux · PowerShell · Python · SAML SSO</dd></div>
 <div><dt>Certification</dt><dd>AWS Certified Solutions Architect – Associate</dd></div>
 </dl>
+</section>
+<section id="contact" class="section contact">
+<div><h2>Contact</h2><p>Open to fully remote DevOps and Cloud Engineering roles based in India.</p></div>
+<div class="actions"><a class="primary" href="https://www.linkedin.com/in/abhilash-george-b0976b90/">Connect on LinkedIn</a><a class="secondary" href="https://github.com/abhy916">GitHub profile</a></div>
 </section>
 </main>
 <footer class="wrap footer"><span>Abhilash George · Senior DevOps Engineer</span><a href="#main">Back to top</a></footer>
